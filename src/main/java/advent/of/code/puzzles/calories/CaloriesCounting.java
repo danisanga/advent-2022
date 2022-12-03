@@ -42,7 +42,6 @@ public class CaloriesCounting {
         System.out.println(elvesWithTotalCaloriesSorted);
     }
 
-    // TODO - Try to return a sorted Map
     private static void sortElvesByMaxCalories(
         Map<Integer, Integer> elvesWithTotalCalories,
         LinkedHashMap<Integer, Integer> elvesWithTotalCaloriesSorted) {
