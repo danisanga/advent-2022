@@ -1,4 +1,4 @@
-package advent.of.code.challenge01;
+package advent.of.code.puzzles.calories;
 
 import advent.of.code.file.reader.FileReader;
 
@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class ElfCalories {
+public class CaloriesCounting {
 
     public static void main(String[] args) {
 
