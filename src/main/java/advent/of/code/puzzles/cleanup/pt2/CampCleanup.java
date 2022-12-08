@@ -14,7 +14,7 @@ public class CampCleanup {
 
     public static void main(String[] args) {
 
-        final String fileContent = FileReader.getDataFromFile("camp-cleanup.txt");
+        final String fileContent = FileReader.getDataFromFile("puzzle-inputs/camp-cleanup.txt");
 
         final String[] pairs = fileContent.split("\n");
 

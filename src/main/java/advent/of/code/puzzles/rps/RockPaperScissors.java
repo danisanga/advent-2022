@@ -8,7 +8,7 @@ public class RockPaperScissors {
 
     public static void main(String[] args) {
 
-        final String fileContent = FileReader.getDataFromFile("rock-paper-scissors.txt");
+        final String fileContent = FileReader.getDataFromFile("puzzle-inputs/rock-paper-scissors.txt");
 
         // Get the separated matches.
         final String[] separatedMatches = fileContent.split("\n");

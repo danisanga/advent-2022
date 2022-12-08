@@ -10,7 +10,7 @@ public class CaloriesCounting {
 
     public static void main(String[] args) {
 
-        final String fileContent = FileReader.getDataFromFile("elf-calories.txt");
+        final String fileContent = FileReader.getDataFromFile("puzzle-inputs/elf-calories.txt");
 
         // Pt. 1 Get the elf with more calories.
 

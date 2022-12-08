@@ -13,7 +13,7 @@ public class RucksackReorganization {
 
     public static void main(String[] args) {
 
-        final String fileContent = FileReader.getDataFromFile("rucksack.txt");
+        final String fileContent = FileReader.getDataFromFile("puzzle-inputs/rucksack.txt");
 
         // Get the separated rucksacks.
         final String[] rucksacks = fileContent.split("\n");
